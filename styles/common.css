@@ -1,0 +1,21 @@
+.jumbotron-fluid{
+    background-color: #cf5d4e;
+    color: white;
+}
+html, body, .fullScreenDiv{
+    height: 100%
+}
+.btn-custom{
+    background-color: #cf5d4e;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-custom:hover{
+    background-color: white;
+    color: #cf5d4e;
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}

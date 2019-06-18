@@ -1,0 +1,11 @@
+.table .thead-dark th{
+    background-color: #cf5d4e;
+  
+    border-color: #cf5d4e;
+}
+.btn-customDashboard{
+    background-color: white;
+    color: #cf5d4e;
+    cursor: pointer;
+    border: 0ch;
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/common.css">
+
+    <title>THE HOE HOUSE</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="ContactUs">
+        <a class="navbar-brand" href="#">Hoe House</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./FAQ.html">FAQs</a>
+                </li>
+            
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact Us
+                        <span class="sr-only">(current)</span>
+                    </a>
+
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container jumbotron">
+        <h1 class="display-4">Hello, Dear</h1>
+        <p class="lead">WE REGRET THE INCONVINIENCE CAUSED TO U FROM OUR SERVICE.</p>
+        <hr class="my-4">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="UserEmail">Email</label>
+                <input type="Email" class="form-control" id="UserEmail" placeholder="Email">
+                <small id="EmailError" class="form-text text-muted"></small>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="UserQuerry">Querry</label>
+                <select id="UserQuerry" class="form-control">
+                    <option selected>Choose</option>
+                    <option>i have recieved small b**bs hoe!</option>
+                    <option>She was not vi**in af!</option>
+                    <option>she was not ready for o**l</option>
+                </select>
+                <small id="UserQuerryError" class="form-text text-muted"></small>
+            </div>
+        </div>
+        <div class="form-group">
+
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Description (Optional)"></textarea>
+        </div>
+
+        <button type="button" class="btn btn-block btn-custom" id="QuerryButtton">Submit</button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="ModalMessage"></p>
+                    <a class="btn btn-custom" href="./index.html">Go to Homepage</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/Contact.js"></script>
+</body>
+
+</html>
